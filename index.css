@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    font-family: 'Sriracha', cursive;
+    user-select: none;
+}
+
+html, body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input {
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+    color: #432000;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    padding: 5px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+button {
+    width: 80%;
+    height: 40px;
+    color: #FDFDFD;
+    background-color: #62442E;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #62442E;
+    margin-bottom:10px;
+    padding:5px;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #62442E;
+    border: 1px solid #62442E; 
+}
+
+img {
+    width:70%;
+}
+
+div {
+    max-width: 400px;
+    border: 3px solid #000000;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #d5b78e2b;
+
+}
+
+ul {
+    max-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+}
+
+li {
+    padding: 0.5rem 1rem;
+    background-color: #FFFDF8;
+    color: #62442E;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+    list-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+li:hover {
+    background-color: #62442E58;
+}
